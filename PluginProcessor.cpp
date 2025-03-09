@@ -195,7 +195,7 @@ bool NewProjectAudioProcessor::hasEditor() const
 
 juce::AudioProcessorEditor* NewProjectAudioProcessor::createEditor()
 {
-    return new TutorialAudioProcessorEditor(*this);
+    return new NewProjectAudioProcessorEditor(*this);
 }
 
 //==============================================================================
